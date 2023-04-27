@@ -6,6 +6,8 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    // TODO: remove after releasing https://github.com/aeternity/aepp-sdk-js/issues/1793
+    "strictFunctionTypes": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
